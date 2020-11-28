@@ -29,11 +29,12 @@ namespace l5t15
         {
 
             /* Добавьте свой код ниже */
-            int b = 0;
-            for (int i = 0; i < 5; i++)
+            int a = int.Parse(Console.ReadLine());
+            int b =  a;
+            for (int i = 0; i < 4; i++)
             {
-                int a = int.Parse(Console.ReadLine());
-                if (a<b)
+                a = int.Parse(Console.ReadLine());
+                if (a < b)
                 {
                     b = a;
                 }
