@@ -31,48 +31,33 @@ namespace l5t10
     * ХХХ - значения соответствующих полей класса. Все элементы классов Cat и Human сделайте открытыми.
     * Шаблон задачи менять нельзя.
     */
-
     public class Program
-
     {
-
         public static void Main(string[] args)
-
         {
-
             Console.WriteLine(new Cat("Барсик"));
-
             Console.WriteLine(new Cat("Мурзик"));
-
             Console.WriteLine(new Cat("Том"));
-
         }
-
     }
-
     public class Cat
-
     {
-
         /* Добавьте свой код ниже */
         public string name;
         public Human owner;
         public Cat(string name)
         {
             this.name = name;
-            this.owner = new Human(new Cat(name));
-
+            this.owner = new Human(this);
         }
         public override string ToString()
         {
-            return "Меня зовут: " + name + ", а моего хозяина зовут: " + this.owner + ". Мы с ним вместе живем по адресу:!";
+            Human human = new Human(this);
+            return "Меня зовут: " + name + ", а моего хозяина зовут: " + human.name + ". Мы с ним вместе живем по адресу:" + human.address + "!";
         }
     }
-
     public class Human
-
     {
-
         /* Добавьте свой код ниже */
         public string name;
         public string address;
@@ -83,7 +68,5 @@ namespace l5t10
             this.address = "221B";
             this.pet = pet;
         }
-
     }
-
 }
