@@ -52,8 +52,7 @@ namespace l5t10
         }
         public override string ToString()
         {
-            Human human = new Human(this);
-            return "Меня зовут: " + name + ", а моего хозяина зовут: " + human.name + ". Мы с ним вместе живем по адресу:" + human.address + "!";
+            return "Меня зовут: " + name + ", а моего хозяина зовут: " + owner.name + ". Мы с ним вместе живем по адресу:" + owner.address + "!";
         }
     }
     public class Human
