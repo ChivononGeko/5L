@@ -37,11 +37,11 @@ namespace l5t21
         }
         public override string ToString()
         {
-            if (this.name == null)
+            if (this.name == "")
             {
                 if (this.age > 0)
                 {
-                    if (this.profession == null)
+                    if (this.profession == "")
                     {
                         return $"Мне {this.age} лет!";
                     }
@@ -52,7 +52,7 @@ namespace l5t21
                 }
                 else
                 {
-                    if (this.profession == null)
+                    if (this.profession == "")
                     {
                         return $"Я аноним!";
                     }
@@ -66,7 +66,7 @@ namespace l5t21
             {
                 if (this.age > 0)
                 {
-                    if (this.profession == null)
+                    if (this.profession == "")
                     {
                         return $"Привет, меня зовут {this.name}, мне {this.age} лет, у меня пока нет профессии, но скоро я стану .Net программистом!!!";
                     }
@@ -77,7 +77,7 @@ namespace l5t21
                 }
                 else
                 {
-                    if (this.profession == null)
+                    if (this.profession == "")
                     {
                         return $"Меня зовут {this.name}!";
                     }
