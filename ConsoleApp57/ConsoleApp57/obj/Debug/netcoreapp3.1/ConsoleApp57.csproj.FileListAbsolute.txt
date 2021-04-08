@@ -1,0 +1,13 @@
+C:\Users\Pingo\source\repos\ConsoleApp57\ConsoleApp57\bin\Debug\netcoreapp3.1\ConsoleApp57.exe
+C:\Users\Pingo\source\repos\ConsoleApp57\ConsoleApp57\bin\Debug\netcoreapp3.1\ConsoleApp57.deps.json
+C:\Users\Pingo\source\repos\ConsoleApp57\ConsoleApp57\bin\Debug\netcoreapp3.1\ConsoleApp57.runtimeconfig.json
+C:\Users\Pingo\source\repos\ConsoleApp57\ConsoleApp57\bin\Debug\netcoreapp3.1\ConsoleApp57.runtimeconfig.dev.json
+C:\Users\Pingo\source\repos\ConsoleApp57\ConsoleApp57\bin\Debug\netcoreapp3.1\ConsoleApp57.dll
+C:\Users\Pingo\source\repos\ConsoleApp57\ConsoleApp57\bin\Debug\netcoreapp3.1\ConsoleApp57.pdb
+C:\Users\Pingo\source\repos\ConsoleApp57\ConsoleApp57\obj\Debug\netcoreapp3.1\ConsoleApp57.csprojAssemblyReference.cache
+C:\Users\Pingo\source\repos\ConsoleApp57\ConsoleApp57\obj\Debug\netcoreapp3.1\ConsoleApp57.AssemblyInfoInputs.cache
+C:\Users\Pingo\source\repos\ConsoleApp57\ConsoleApp57\obj\Debug\netcoreapp3.1\ConsoleApp57.AssemblyInfo.cs
+C:\Users\Pingo\source\repos\ConsoleApp57\ConsoleApp57\obj\Debug\netcoreapp3.1\ConsoleApp57.csproj.CoreCompileInputs.cache
+C:\Users\Pingo\source\repos\ConsoleApp57\ConsoleApp57\obj\Debug\netcoreapp3.1\ConsoleApp57.dll
+C:\Users\Pingo\source\repos\ConsoleApp57\ConsoleApp57\obj\Debug\netcoreapp3.1\ConsoleApp57.pdb
+C:\Users\Pingo\source\repos\ConsoleApp57\ConsoleApp57\obj\Debug\netcoreapp3.1\ConsoleApp57.genruntimeconfig.cache
