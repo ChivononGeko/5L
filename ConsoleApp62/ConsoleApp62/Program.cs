@@ -1,0 +1,78 @@
+﻿using System;
+
+using System.Collections.Generic;
+
+using System.Linq;
+
+using System.Text;
+
+using System.Threading.Tasks;
+
+namespace l5t32
+
+{
+
+    /*
+
+    * Создайте публичный статический класс SupportPrinterClass в том же файле и namespace что и класс Program.
+
+    * Добавьте в созданный класс 4 публичных метода:
+
+    * 1) Printer, который должен принимать в качестве входящего параметра строку и выводить её на экран 1 раз.
+
+    * 2) DoublePrinter, который должен принимать в качестве входящего параметра строку и выводить её на экран 2 раза.
+
+    * 3) TriplePrinter, который должен принимать в качестве входящего параметра строку и выводить её на экран 3 раз.
+
+    * 4) MultiPrinter, который должен принимать в качестве входящего параметра строку и число раз, которое её надо вывести на экран.
+
+    */
+
+    public class Program
+
+    {
+
+        public static void Main(string[] args)
+
+        {
+            SupportPrinterClass.Printer("Привет");
+            SupportPrinterClass.DoublePrinter("Как дела");
+            SupportPrinterClass.TripplePrinter("Что делаешь");
+            SupportPrinterClass.MultiPrinter("ПНХ",5);
+        }
+
+    }
+
+    /* Добавьте свой код ниже */
+    public static class SupportPrinterClass
+    {
+        public static void Printer(string str)
+        {
+            Console.WriteLine(str);
+        }
+        public static void DoublePrinter(string str)
+        {
+            for (int i = 0; i < 2; i++)
+            {
+                Console.WriteLine(str);
+            }        
+        }
+        public static void TripplePrinter(string str)
+        {
+
+            for (int i = 0; i < 3; i++)
+            {
+                Console.WriteLine(str);
+            }
+        }
+        public static void MultiPrinter(string str, int kolvo)
+        {
+
+            for (int i = 0; i < kolvo; i++)
+            {
+                Console.WriteLine(str);
+            }
+        }
+    }
+
+}
